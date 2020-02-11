@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Login Administrador </title>
+        <link rel="stylesheet" href="css/master.css">
+
+    </head>
+    <body>
+        <div class="form-login">
+            <img class="logo-user"src="css\imagenes\user-logo.png">
+            <h1>Login</h1>
+            <form action="validacion.php" method="POST"> 
+                <!-------------- User Name ----------->
+                <label for="username">Usuario </label>
+                <input type="text" placeholder="Ingresa Usuario"name="txtuser"/> 
+                <!-------------- Password ----------->
+                <label for="password">Contraseña </label>
+                <input type="password" placeholder="Contraseña" name="txtpassword"/>
+                <!---------- Boton ------------------>
+                <input type="submit"name="Entrar" value="Ingresar"/>
+                
+                <a href="sgnup.html">No tengo cuenta</a>
+            </form>
+        </div>
+    </body>
+</html>
